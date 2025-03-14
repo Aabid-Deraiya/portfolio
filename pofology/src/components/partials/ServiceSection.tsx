@@ -7,8 +7,8 @@ import Link from 'next/link';
 
 const bgClasses = [
   'bg-indigo-500 text-indigo-100',
-  'bg-yellow-400 text-yellow-900',
   'bg-pink-400 text-pink-900',
+  'bg-yellow-400 text-yellow-900',
   'bg-purple-500 text-purple-100',
   'bg-green-500 text-green-100',
   'bg-blue-500 text-blue-100',

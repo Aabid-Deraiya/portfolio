@@ -40,7 +40,7 @@ const ExperienceSection = () => {
         {/* Education */}
         <div>
           <div className="rounded-2xl bg-white px-10 py-8 shadow-lg dark:bg-gray-700">
-            <ol className={classNames(styles['education'], 'border-l border-gray-200 dark:border-gray-500')}>
+            <ol className={classNames(styles['education'])}>
               {educations.map((education, index) => (
                 <li key={index} className={styles['education-item']}>
                   <span className="absolute -left-2.5 flex h-5 w-5 items-center justify-center rounded-full bg-white text-primary-500 ring-8 ring-white dark:bg-gray-700 dark:ring-gray-700">

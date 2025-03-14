@@ -30,31 +30,17 @@ const Home: NextPage = () => {
       <section className="container py-16">
         <RecentWorkSection />
       </section>
-      <section className="container py-16">
+      {/* <section className="container py-16">
         <TestimonialSection />
-      </section>
-      <section className="container py-16">
+      </section> */}
+      {/* <section className="container py-16">
         <BlogSection />
-      </section>
+      </section> */}
       <section className="container py-16">
         <ContactSection />
       </section>
     </AppLayout>
   );
 };
-
-// export const getServerSideProps: GetServerSideProps = async ({}) => {
-//   const getExperiences = api.get('/experiences').then((res) => res.data.data);
-//   const getEducations = api.get('/educations').then((res) => res.data.data);
-//   const profile = api.get('/profile').then((res) => res.data.data);
-//   const result = await Promise.all([getExperiences, getEducations, profile]);
-//   return {
-//     props: {
-//       experiences: result[0],
-//       educations: result[1],
-//       profile: result[2],
-//     },
-//   };
-// };
 
 export default Home;

@@ -14,36 +14,21 @@ const HeroSection = () => {
         <div className="overflow-hidden rounded-full">
           <Image src="/images/avatar/man.png" width={180} height={180} alt="avatar" />
         </div>
-        <h1 className="mt-4 text-3xl font-bold ">Mostafizur Rahman</h1>
+        <h1 className="mt-4 text-3xl font-bold ">Aabid Deraiya</h1>
         <div className="mt-2 flex gap-1">
           {' '}
           I'm a{' '}
           <Typed
-            strings={['Fullstack Developer', 'UI/UX Designer', 'Mobile App Developer']}
+            strings={['Flutter Developer']}
             typeSpeed={60}
             backSpeed={30}
             loop
           />
         </div>
         <div className="mt-4  flex gap-5">
-          <Link href="https://www.instragram.com">
-            <a className="text-gray-700 transition-colors duration-150 hover:text-primary-500">
-              <FiInstagram size={25} />
-            </a>
-          </Link>
           <Link href="https://www.twitter.com">
             <a className="text-gray-700 transition-colors duration-150 hover:text-primary-500">
               <FiTwitter size={25} />
-            </a>
-          </Link>
-          <Link href="https://www.facebook.com">
-            <a className="text-gray-700 transition-colors duration-150 hover:text-primary-500">
-              <FiFacebook size={25} />
-            </a>
-          </Link>
-          <Link href="https://www.dribble.com">
-            <a className="text-gray-700 transition-colors duration-150 hover:text-primary-500">
-              <FiDribbble size={25} />
             </a>
           </Link>
           <Link href="https://www.github.com">

@@ -13,8 +13,8 @@ const AboutSection = () => {
         {/* Bio */}
         <div className="">
           <p className="text-justify">
-            Hi, I am Md Mostafizur Rahman, I am a fullstack developer. I work from Dhaka, Bangladesh. I have rich
-            experience in building, designing & customizing website, web apps, mobile apps etc.
+            Hi, I am Aabid Deraiya, I am a flutter developer. I work from Gujarat, India. I have rich
+            experience in building, designing & customizing mobile apps.
           </p>
           <Button className="mt-5">Download CV</Button>
         </div>
@@ -23,14 +23,14 @@ const AboutSection = () => {
         <div className="grid grid-cols-2 gap-x-6 gap-y-4">
           <div className="">
             <div className="mb-3 flex justify-between">
-              <h6 className="font-semibold">Backend</h6>
-              <p>85%</p>
+              <h6 className="font-semibold">Flutter</h6>
+              <p>95%</p>
             </div>
-            <ProgressBar color="blue" progress={85} />
+            <ProgressBar color="blue" progress={95} />
           </div>
           <div className="">
             <div className="mb-3 flex justify-between">
-              <h6 className="font-semibold">Frontend</h6>
+              <h6 className="font-semibold">Dart</h6>
               <p>95%</p>
             </div>
             <ProgressBar color="amber" progress={95} />
@@ -38,10 +38,10 @@ const AboutSection = () => {
 
           <div className="">
             <div className="mb-3 flex justify-between">
-              <h6 className="font-semibold">Mobile App</h6>
-              <p>75%</p>
+              <h6 className="font-semibold">Firebase</h6>
+              <p>80%</p>
             </div>
-            <ProgressBar color="rose" progress={75} />
+            <ProgressBar color="rose" progress={80} />
           </div>
           <div className="">
             <div className="mb-3 flex justify-between">
@@ -60,7 +60,7 @@ const AboutSection = () => {
             <HiOutlineFire size={50} />
           </div>
           <div>
-            <h2 className="text-3xl font-bold">20+</h2>
+            <h2 className="text-3xl font-bold">7+</h2>
             <p className="mt-1">Projects Completed</p>
           </div>
         </div>
@@ -69,18 +69,8 @@ const AboutSection = () => {
             <FiCoffee size={50} />
           </div>
           <div>
-            <h2 className="text-3xl font-bold">30+</h2>
+            <h2 className="text-3xl font-bold">50+</h2>
             <p className="mt-1">Cup of Coffee</p>
-          </div>
-        </div>
-
-        <div className="flex">
-          <div className="mr-5 text-gray-300">
-            <HiOutlineUsers size={50} />
-          </div>
-          <div>
-            <h2 className="text-3xl font-bold">15+</h2>
-            <p className="mt-1">Satisfied clients</p>
           </div>
         </div>
 
@@ -89,7 +79,7 @@ const AboutSection = () => {
             <HiOutlineChartBar size={50} />
           </div>
           <div>
-            <h2 className="text-3xl font-bold">5+</h2>
+            <h2 className="text-3xl font-bold">2+</h2>
             <p className="mt-1">Years of experience</p>
           </div>
         </div>
