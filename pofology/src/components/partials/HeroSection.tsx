@@ -25,7 +25,7 @@ const HeroSection = () => {
             loop
           />
         </div>
-        <div className="mt-4  flex gap-5">
+        {/* <div className="mt-4  flex gap-5">
           <Link href="https://www.twitter.com">
             <a className="text-gray-700 transition-colors duration-150 hover:text-primary-500">
               <FiTwitter size={25} />
@@ -36,8 +36,8 @@ const HeroSection = () => {
               <FiGithub size={25} />
             </a>
           </Link>
-        </div>
-        <Button className="mt-5 px-8">Hire Me</Button>
+        </div> */}
+        <Button className="mt-5 px-8" href='https://www.fiverr.com/aabid_deraiya'>Hire Me</Button>
       </div>
 
       <div className="absolute bottom-0 flex flex-col items-center ">
